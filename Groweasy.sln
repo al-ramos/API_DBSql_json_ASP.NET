@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrowEasy", "GrowEasy.csproj", "{0D5FF322-3156-4058-B952-37C17A44E896}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D5FF322-3156-4058-B952-37C17A44E896}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D5FF322-3156-4058-B952-37C17A44E896}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D5FF322-3156-4058-B952-37C17A44E896}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D5FF322-3156-4058-B952-37C17A44E896}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {618E2FD8-C1C8-4D71-AF19-C475ED1B664D}
+	EndGlobalSection
+EndGlobal
