@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pe5xvLVm+VhbSoW5X0/T4TBvHMN/QcqST6ECTvSY1Sx5vGYkWmyKPvYPbHpE54ICmFRj7BJPcDIDYul6aiGsTQ==",
+  "dgSpecHash": "+AfQEgNj31IzmmIBJFy4bNqfeG6BCjzLQ0FwOaeE/R5QwIfxyftuK/2K5s3Fsc4ZSbX3MsEc/ippjyzRJoy9Dg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\al-ra\\SOURCE\\GrowEasy\\GrowEasy.csproj",
+  "projectFilePath": "C:\\Users\\al-ra\\source\\GrowEasy\\GrowEasy.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\al-ra\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\al-ra\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
