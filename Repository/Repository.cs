@@ -43,19 +43,7 @@ namespace GrowEasy.Repository
 			{
 			rContext.MainDescs.Update(mainDesc);
 			rContext.SaveChanges();
-			}	
-
-		T IRepository<T>.GetData(int Id)
-			{
-			throw new System.NotImplementedException();
-			}
-
-		public IEnumerable<T> GetData(T T, string includeProperties)
-			{
-				IQueryable<T> query = dbSet;
-				query = query.Include(includeProperties);
-				return query.ToList();
-				}
+			}		
 
 		public void NewData(T T)
 			{
@@ -96,29 +84,12 @@ namespace GrowEasy.Repository
 			
 				return query.ToList();		
 
-
 			}
-		/*
-		public IEnumerable<T> GetData (string filter = null, bool tracked = true, string includeProperties)
-		{
-			IQueryable<T> query = dbSet;
-			if (filter != null)
-				{
-				query = query.Where(filter);
-				}
 
-			if (includeProperties != null)
-				{
-				foreach (var includeProp in includeProperties.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
-					{
-					query = query.Include(includeProp);
-					}
-				}
-
-			return query.ToList();
-
+		T IRepository<T>.GetData(int Id)
+			{
+			throw new NotImplementedException();
 			}
-		*/
 		}
 		}
 	

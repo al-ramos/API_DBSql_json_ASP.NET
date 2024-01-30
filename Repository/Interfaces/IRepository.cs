@@ -11,7 +11,7 @@ namespace GrowEasy.Repository.Interfaces
         void NewData(T T);
         void PutData(T T);
         void DelData(T T);
-        T GetData(int Id);
+		public T GetData(int Id);
         public IEnumerable<T> GetData(Expression<Func<T, bool>> filter = null, bool tracked = true, string? includeProperties = null);
 
 
